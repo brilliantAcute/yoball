@@ -1,2 +1,2 @@
 # yoball
-a wechat applet for basketball match
+毕设项目，方便常打篮球的球友线上匹配队友组局
