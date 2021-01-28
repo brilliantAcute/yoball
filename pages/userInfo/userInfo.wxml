@@ -1,0 +1,43 @@
+<view class="page">
+    <!--客户信息-->
+    <view class="field-item vc">
+        <text class="field-item-label fw-700">姓名</text>
+        <view class="field-item-val"><input name="name" value="{{name}}" placeholder="请输入姓名"/></view>
+    </view>
+    <view class="field-item vc">
+        <text class="field-item-label fw-700">手机号码</text>
+        <view class="field-item-val"><input name="phone" value="{{phone}}" placeholder="您的手机号码"/></view>
+    </view> 
+    <view class="field-item vc">
+        <text class="field-item-label fw-700">年龄</text>
+        <view class="field-item-val"><input name="age" value="{{address}}" placeholder="年龄"/></view>
+    </view> 
+    <view class="field-item vc">
+        <text class="field-item-label fw-700">身高</text>
+        <view class="field-item-val"><input name="height" value="{{address}}" placeholder="身高"/></view>
+    </view> 
+    <view class="field-item vc">
+        <text class="field-item-label fw-700">体重</text>
+        <view class="field-item-val"><input name="weight" value="{{address}}" placeholder="体重"/></view>
+    </view> 
+    <view class="field-item vc">
+        <text class="field-item-label fw-700">居住地</text>
+        <view class="field-item-val"><input name="address" value="{{address}}" placeholder="居住地"/></view>
+    </view> 
+    <view class="field-item vc">
+        <text class="field-item-label fw-700">打球范围</text>
+        <view class="field-item-val"><input name="range" value="{{address}}" placeholder="可接受的打球范围"/></view>
+    </view> 
+    <view class="field-item vc">
+        <text class="field-item-label fw-700">球风</text>
+        <view class="field-item-val"><input name="style" value="{{address}}" placeholder="球风"/></view>
+    </view> 
+    <view class="field-item vc">
+        <text class="field-item-label fw-700">球技</text>
+        <view class="field-item-val"><input name="skill" value="{{address}}" placeholder="球技"/></view>
+    </view> 
+</view>
+
+<view class="footer">
+    <button bindtap="formSubmit" class="field-ok fw-600 cc"  hover-class="field-ok-hover" >提 交</button>
+</view>

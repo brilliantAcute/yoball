@@ -1,0 +1,46 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/invitation/invitation",
+    "pages/user/user",
+    "pages/playerInfo/playerInfo",
+    "pages/group/group",
+    "pages/userInfo/userInfo",
+    "pages/logs/logs",
+    "pages/login/login"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "约球",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#afaeae",
+    "selectedColor": "#f00",
+    "borderStyle": "black",
+    "backgroundColor": "#f0f0f0",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/player1.png",
+        "selectedIconPath": "images/player2.png",
+        "text": "球友"
+      },
+      {
+        "pagePath": "pages/invitation/invitation",
+        "iconPath": "images/ball1.png",
+        "selectedIconPath": "images/ball2.png",
+        "text": "约球"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "images/user1.png",
+        "selectedIconPath": "images/user2.png",
+        "text": "个人信息"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

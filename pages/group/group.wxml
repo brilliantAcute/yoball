@@ -1,0 +1,14 @@
+<!--pages/group/group.wxml-->
+<view>{{"匹配人数"}}-{{"时间段"}}-{{"具体球馆"}}</view>
+
+<view wx:for="{{5}}">
+  <view class="page-item vc" bindtap="userClick">
+        <view class="vc">
+            <image src="/images/user1.png" mode="scaleToFill" class="p-icon" />
+        </view>
+        <view class="item-name">{{userList[0]}}</view>
+        <view class="vc">
+            <image src="/images/icon_rightgo.png" mode="scaleToFill" class="p-icon" />
+        </view>
+  </view> 
+</view>

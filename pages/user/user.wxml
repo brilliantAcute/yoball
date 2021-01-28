@@ -1,0 +1,19 @@
+<view class="page-item vc" bindtap="userClick">
+        <view class="vc">
+            <image src="/images/user1.png" mode="scaleToFill" class="p-icon" />
+        </view>
+        <view class="item-name">个人信息</view>
+        <view class="vc">
+            <image src="/images/icon_rightgo.png" mode="scaleToFill" class="p-icon" />
+        </view>
+  </view> 
+
+  <view class="page-item vc" bindtap="groupClick">
+        <view class="vc">
+            <image src="/images/group.png" mode="scaleToFill" class="p-icon" />
+        </view>
+        <view class="item-name">约球群组</view>
+        <view class="vc">
+            <image src="/images/icon_rightgo.png" mode="scaleToFill" class="p-icon" />
+        </view>
+  </view> 

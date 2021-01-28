@@ -1,0 +1,44 @@
+<!--pages/invitation/invitation.wxml-->
+<view class="section">
+  <picker mode="selector" bindchange="bindGymChange" value="{{gym}}" custom-item="{{customItem}}">
+    <view class="picker">
+      球馆选择：{{"昌平区"}}，{{"gameon"}}
+    </view>
+  </picker>
+</view>
+
+<view class="section">
+  <picker mode="selector" bindchange="bindGymChange" value="{{gym}}" custom-item="{{customItem}}">
+    <view class="picker">
+      时间段选择：{{"12"}}：{{"00"}}：{{"00"}} 到 {{"14"}}：{{"00"}}：{{"00"}}
+    </view>
+  </picker>
+</view>
+
+<view class="section">
+  <picker mode="selector" bindchange="bindGymChange" value="{{gym}}" custom-item="{{customItem}}">
+    <view class="picker">
+      打球偏好选择：{{"擅长投篮"}} {{"防守悍将"}}
+    </view>
+  </picker>
+</view>
+
+<view class="section">
+  <picker mode="selector" bindchange="bindGymChange" value="{{gym}}" custom-item="{{customItem}}">
+    <view class="picker">
+      匹配人数选择：{{1}} 约 {{7}}
+    </view>
+  </picker>
+</view>
+
+<view class="section">
+  <picker mode="selector" bindchange="bindGymChange" value="{{gym}}" custom-item="{{customItem}}">
+    <view class="picker">
+      匹配截止时间：11:00:00
+    </view>
+  </picker>
+</view>
+
+<view class="footer">
+    <button formType="submit" class="field-ok fw-600 cc" bindtap="formSubmit"  hover-class="field-ok-hover" >确 定</button>
+</view>
